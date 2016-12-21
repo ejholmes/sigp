@@ -1,5 +1,7 @@
 sigp(1) is a simple UNIX tool that wraps a process and prints the signals it receives.
 
+It tries to be as transparent as possible; forwarding all signals, and attaching existing stdin/stdout/stderr.
+
 ## Usage
 
 ```
