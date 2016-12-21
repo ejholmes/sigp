@@ -36,6 +36,7 @@ func main() {
 			os.Exit(status.ExitStatus())
 		}
 	}
+	must(err)
 }
 
 func must(err error) {
