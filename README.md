@@ -20,6 +20,16 @@ You'll see the following printed in the first terminal:
 signal 15 received (terminated)
 ```
 
+## Installation
+
+If Go is installed:
+
+```console
+$ go get -u github.com/ejholmes/sigp
+```
+
+Or grab a binary release from https://github.com/ejholmes/sigp/releases
+
 ## Caveat
 
 There's probably a way to do this with existing unix tools, but Go makes it easy.
